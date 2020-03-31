@@ -1,0 +1,6 @@
+# DCM
+Dynamic causal modelingの一連の処理を自動で行うプログラムです。
+dcm_spm12_batchに前処理後のMRIデータを入れることで処理が始まります。
+dcm_spm12_batch_originはspm12_anualに乗っていたサンプルプログラムです。上述のプログラムのROI設定方法が合っている確証がないのでoriginalの方も
+見てみて下さい。
+dcm_spm12_bms_individualは個人のbms解析、dcm_spm12_mk_modelspaceはbmsの集団解析を行うプログラムです。そちらの詳細もspm12manualを参照にして下さい。
